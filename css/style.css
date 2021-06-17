@@ -1,0 +1,140 @@
+.div1{
+    display: none;
+}
+#navmenu{
+    display: flex;
+    background-color: teal;
+}
+#navmenu2{
+    display: block;
+    display: flex;
+    background-color: teal;
+    padding: 12px;
+    width: 100%;
+}
+#menux{
+    font-family: 'Cinzel', serif;
+    margin-top: 10px;
+}
+#logom{
+    text-align: left;
+    margin-top: 10px;
+}
+#logom2{
+    text-align: right;
+    margin-top: 10px;
+}
+#imgLogo{
+    margin: 0 10px;
+    height: 35px;
+    width: 35px;
+}
+#menu{
+    width: 100%;
+}
+#menu li{
+	padding: 5px;
+	display: inline-block;
+    margin-top: 10px;
+}
+.om{
+    color: white;
+    font-family: 'Spartan', sans-serif;
+}
+#aservicios{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+#h1servicios{
+    margin-top: 20px;
+}
+.imagen-servicio{
+    height: 200px;
+    width: 15%;
+}
+#imagenes-servicios{
+    display: flex;
+    margin-top: 20px;
+}
+h1{
+    font-family: 'Cinzel', serif;
+}
+#pservicios{
+    margin-top: 20px;
+    margin-left: 8.5%;
+    margin-right: 8.5%;
+}
+#imgt1{
+    background: url(../image/t1.jpeg) no-repeat center top;
+    background-size: cover; /*cover(cubre todo 100%ancho) contain(respecto al alto) auto, 100px (ancho) 200px (alto),*/
+    min-height: 430px;
+}
+#imgt2{
+    background: url(../image/t2.jpeg) no-repeat center top;
+    background-size: cover; /*cover(cubre todo 100%ancho) contain(respecto al alto) auto, 100px (ancho) 200px (alto),*/
+    min-height: 300px;
+}
+#imgt3{
+    background: url(../image/t3.jpeg) no-repeat center top;
+    background-size: cover; /*cover(cubre todo 100%ancho) contain(respecto al alto) auto, 100px (ancho) 200px (alto),*/
+    min-height: 300px;
+}
+#imgt4{
+    background: url(../image/t4.jpeg) no-repeat center top;
+    background-size: cover; /*cover(cubre todo 100%ancho) contain(respecto al alto) auto, 100px (ancho) 200px (alto),*/
+    min-height: 300px;
+}
+#imgt5{
+    background: url(../image/t5.jpeg) no-repeat center top;
+    background-size: cover; /*cover(cubre todo 100%ancho) contain(respecto al alto) auto, 100px (ancho) 200px (alto),*/
+    min-height: 300px;
+}
+.hader-h{
+    color: #133913;
+    font-size: 40px;
+    margin-top: 30px;
+    font-family: 'Shadows Into Light', cursive;
+    margin-bottom: 40px;
+}
+#pie{
+    margin-top: 10px;
+    min-height: 10px;
+    float: right;
+}
+.imgSocial{
+    height: 35px;
+    min-height: 30px;
+}
+#body{
+    background-color: teal;
+}
+.imgs:hover{
+    transform: scale(1.5);
+    filter: drop-shadow(2px 2px 5px rgb(0, 255, 255)) saturate(200%);
+}
+.imgs1:hover{
+    transform: scale(1.5);
+    border-radius:50px;
+}
+.menu2{
+    display: none;
+    text-align: center;
+}
+.col-redes{
+    width: 100%;
+}
+.rs{
+    margin-left: 15%;
+    
+}
+
+@media only screen and (min-width:481px) {
+    .div1{
+        display: block ;
+    }
+    .menu2{
+        display: block;
+    }
+    .col-redes{
+        width: 33.3%;
+    }
+}
